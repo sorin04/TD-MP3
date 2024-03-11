@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600" prefWidth="524.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.btsciel.td_mp3.Controller">
+    <children>
+        <Button fx:id="buttonFichier" layoutX="26.0" layoutY="47.0" prefHeight="25.0" prefWidth="91.0" text="Fichier" />
+        <Label fx:id="labelChemin" layoutX="26.0" layoutY="118.0" prefHeight="25.0" prefWidth="474.0" style="-fx-background-color: #88adc6;" text="Label">
+            <font>
+                <Font name="Arial" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="labelFichier" layoutX="26.0" layoutY="160.0" prefHeight="25.0" prefWidth="349.0" style="-fx-background-color: #88adc6;" text="Label">
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+        </Label>
+        <HBox layoutX="26.0" layoutY="193.0" prefHeight="57.0" prefWidth="214.0">
+            <children>
+                <Button fx:id="buttonPlay" mnemonicParsing="false" text="Play" />
+                <Button fx:id="buttonStop" mnemonicParsing="false" text="Stop" />
+            </children>
+        </HBox>
+        <Button fx:id="buttonLiretag" layoutX="167.0" layoutY="47.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" text="Lire Tags" />
+        <Button fx:id="buttonmodifier" layoutX="309.0" layoutY="47.0" mnemonicParsing="false" text="Modifier" />
+        <TextField fx:id="titreText" layoutX="34.0" layoutY="250.0" prefHeight="25.0" prefWidth="264.0" promptText="Titre" styleClass="cyan-textfield" />
+        <TextField fx:id="artistetexte" layoutX="35.0" layoutY="300.0" prefHeight="25.0" prefWidth="264.0" promptText="Artiste" styleClass="cyan-textfield" />
+        <TextField fx:id="albumtexte" layoutX="34.0" layoutY="347.0" prefHeight="25.0" prefWidth="264.0" promptText="Album" styleClass="cyan-textfield" />
+        <TextField fx:id="anneetexte" layoutX="34.0" layoutY="387.0" prefHeight="25.0" prefWidth="83.0" promptText="Annee" styleClass="cyan-textfield" />
+        <TextField fx:id="commentairetexte" layoutX="31.0" layoutY="430.0" prefHeight="25.0" prefWidth="264.0" promptText="Commentaire" styleClass="cyan-textfield" />
+        <TextField fx:id="genretexte" layoutX="26.0" layoutY="479.0" prefHeight="25.0" prefWidth="83.0" promptText="Genre" styleClass="cyan-textfield" />
+        <TextField fx:id="tracktexte" layoutX="149.0" layoutY="479.0" prefHeight="25.0" prefWidth="132.0" promptText="Track" styleClass="cyan-textfield" />
+
+        <Button fx:id="buttonEnregistrer" layoutX="401.0" layoutY="313.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="83.0" text="Enregistrer" />
+    </children>
+</AnchorPane>
